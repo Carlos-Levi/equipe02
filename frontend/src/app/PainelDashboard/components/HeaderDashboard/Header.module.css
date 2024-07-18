@@ -1,0 +1,25 @@
+/* frontend/src/app/PainelDashboard/components/Header/Header.module.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    padding: 0 20px;
+    background-color: #333;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.logout {
+    width: 100px;
+    height: 50px;
+    background-color: #555;
+    border: none;
+    border-radius: 16px;
+    color: #fff;
+    cursor: pointer;
+}
